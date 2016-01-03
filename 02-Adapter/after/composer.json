@@ -1,0 +1,6 @@
+{
+    "require": {
+        "twilio/sdk": "~3.12",
+        "sendgrid/sendgrid": "~2.0"
+    }
+}

@@ -1,0 +1,11 @@
+{
+"repositories": [
+    {
+        "type": "composer",
+        "url": "https://packages.zendframework.com/"
+    }
+],
+"require": {
+    "zendframework/zend-eventmanager": "2.3.*"
+}
+}

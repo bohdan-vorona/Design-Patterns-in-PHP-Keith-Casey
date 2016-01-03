@@ -1,0 +1,117 @@
+[
+    {
+        "name": "zendframework/zend-stdlib",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "target-dir": "Zend/Stdlib",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/Component_ZendStdlib.git",
+            "reference": "fa33e6647f830d0d2a1cb451efcdfe1bb9a66c33"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packages.zendframework.com/composer/zendframework-zend-stdlib-fa33e6647f830d0d2a1cb451efcdfe1bb9a66c33-zip-3307db.zip",
+            "reference": "2.3.3",
+            "shasum": "9ba6087a66196914c6ff6885f78eec7bc7352517"
+        },
+        "require": {
+            "php": ">=5.3.23"
+        },
+        "require-dev": {
+            "zendframework/zend-eventmanager": "self.version",
+            "zendframework/zend-serializer": "self.version",
+            "zendframework/zend-servicemanager": "self.version"
+        },
+        "suggest": {
+            "zendframework/zend-eventmanager": "To support aggregate hydrator usage",
+            "zendframework/zend-serializer": "Zend\\Serializer component",
+            "zendframework/zend-servicemanager": "To support hydrator plugin manager usage"
+        },
+        "time": "2014-09-16 22:58:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev",
+                "dev-develop": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend\\Stdlib\\": ""
+            }
+        },
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": " ",
+        "homepage": "https://github.com/zendframework/zf2",
+        "keywords": [
+            "stdlib",
+            "zf2"
+        ],
+        "support": {
+            "source": "https://github.com/zendframework/Component_ZendStdlib/tree/release-2.3.3"
+        }
+    },
+    {
+        "name": "zendframework/zend-config",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "target-dir": "Zend/Config",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/Component_ZendConfig.git",
+            "reference": "a9ad512e1482461a5b500ee3fcf2d06ec9c7c7e8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packages.zendframework.com/composer/zendframework-zend-config-a9ad512e1482461a5b500ee3fcf2d06ec9c7c7e8-zip-5aed88.zip",
+            "reference": "2.3.3",
+            "shasum": "620a57d705044088aca33a2125b83cfd138d34e5"
+        },
+        "require": {
+            "php": ">=5.3.23",
+            "zendframework/zend-stdlib": "self.version"
+        },
+        "require-dev": {
+            "zendframework/zend-filter": "self.version",
+            "zendframework/zend-i18n": "self.version",
+            "zendframework/zend-json": "self.version",
+            "zendframework/zend-servicemanager": "self.version"
+        },
+        "suggest": {
+            "zendframework/zend-filter": "Zend\\Filter component",
+            "zendframework/zend-i18n": "Zend\\I18n component",
+            "zendframework/zend-json": "Zend\\Json to use the Json reader or writer classes",
+            "zendframework/zend-servicemanager": "Zend\\ServiceManager for use with the Config Factory to retrieve reader and writer instances"
+        },
+        "time": "2014-09-16 22:58:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev",
+                "dev-develop": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend\\Config\\": ""
+            }
+        },
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": "provides a nested object property based user interface for accessing this configuration data within application code",
+        "homepage": "https://github.com/zendframework/zf2",
+        "keywords": [
+            "config",
+            "zf2"
+        ],
+        "support": {
+            "source": "https://github.com/zendframework/Component_ZendConfig/tree/release-2.3.3"
+        }
+    }
+]

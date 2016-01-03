@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configdata>
+    <production>
+        <key>value</key>
+        <key2>value2</key2>
+    </production>
+    <staging>
+        <key>value</key>
+        <key2>value2</key2>
+    </staging>
+</configdata>

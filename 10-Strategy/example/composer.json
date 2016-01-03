@@ -1,0 +1,12 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+    "require": {
+        "zendframework/zend-filter": "2.3.*",
+        "zendframework/zend-i18n":"2.3.*"
+    }
+}

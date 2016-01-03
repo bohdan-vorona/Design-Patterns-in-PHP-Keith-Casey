@@ -1,0 +1,58 @@
+[
+    {
+        "name": "zendframework/zend-db",
+        "version": "2.3.3",
+        "version_normalized": "2.3.3.0",
+        "target-dir": "Zend/Db",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/zendframework/Component_ZendDb.git",
+            "reference": "2c0515b3d8e9d152165ff8081beb5adcbf380857"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://packages.zendframework.com/composer/zendframework-zend-db-2c0515b3d8e9d152165ff8081beb5adcbf380857-zip-a1b898.zip",
+            "reference": "2.3.3",
+            "shasum": "1b1cf1a6c3d44472639fd7cccf5868c1ae79e359"
+        },
+        "require": {
+            "php": ">=5.3.23"
+        },
+        "require-dev": {
+            "zendframework/zend-eventmanager": "self.version",
+            "zendframework/zend-servicemanager": "self.version",
+            "zendframework/zend-stdlib": "self.version"
+        },
+        "suggest": {
+            "zendframework/zend-eventmanager": "Zend\\EventManager component",
+            "zendframework/zend-servicemanager": "Zend\\ServiceManager component",
+            "zendframework/zend-stdlib": "Zend\\Stdlib component"
+        },
+        "time": "2014-09-16 22:58:11",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.3-dev",
+                "dev-develop": "2.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Zend\\Db\\": ""
+            }
+        },
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "description": " ",
+        "homepage": "https://github.com/zendframework/zf2",
+        "keywords": [
+            "db",
+            "zf2"
+        ],
+        "support": {
+            "source": "https://github.com/zendframework/Component_ZendDb/tree/release-2.3.3"
+        }
+    }
+]
